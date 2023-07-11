@@ -10,12 +10,11 @@
 
 ## 📗 Table of Contents
 
-- [📖 To Do List Project ](#-to-do-list-project-)
+- [📖React To Do List App ](#react-to-do-list-app-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
-  - [💻 Getting Started ](#-getting-started-)
+  - [� Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
@@ -29,9 +28,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 To Do List Project <a name="about-project"></a>
+# 📖React To Do List App <a name="about-project"></a>
 
-**To Do List** is a milestone project for microverse student in JavaScript Module
+**📖React To Do List App** is a Todo list app created with react
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -44,6 +43,7 @@
     <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">HTML</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics">CSS</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JS</a></li>
+    <li>React</li>
   </ul>
 </details>
 
@@ -51,14 +51,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Responsive**
-- **webpack**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://rbd3.github.io/To-Do-Deploy/)
+- **React**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -81,7 +74,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  git clone https://github.com/rbd3/To-DO-List-Narson.git
+  git clone https://github.com/rbd3/react-todo-app.git
 ```
 
 ### Install
@@ -89,7 +82,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd To DO List
+  cd react to do app
   npm install
 ```
 
@@ -136,7 +129,7 @@ To use them, execute the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/rbd3/To-Do-List-Narson/issues).
+Feel free to check the [issues page](https://github.com/rbd3/react-todo-app/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,7 +138,7 @@ Feel free to check the [issues page](https://github.com/rbd3/To-Do-List-Narson/i
 ## ⭐️ Show your support <a name="support"></a>
 
 
-If you like this project you can share this project to your friend (https://github.com/rbd3/To-DO-List-Narson.git).
+If you like this project you can share this project to your friend (https://github.com/rbd3/react-todo-app.git).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
