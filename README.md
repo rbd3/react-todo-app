@@ -13,8 +13,7 @@
 - [📖React To Do List App ](#react-to-do-list-app-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
-  - [� Getting Started ](#-getting-started-)
+  - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
@@ -32,7 +31,6 @@
 
 **📖React To Do List App** is a Todo list app created with react
 
-
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -46,14 +44,6 @@
     <li>React</li>
   </ul>
 </details>
-
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-- **React**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
