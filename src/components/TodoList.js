@@ -1,8 +1,9 @@
-import TodoItem from "./TodoItem";
+import TodoItem from './TodoItem';
 
-const TodosList = ({ todosprops, handleChange, delTodo, setUpdate   }) => {
+const TodosList = ({ todosprops, handleChange, delTodo, setUpdate }) => {
     return (
-      <ul>
+      <div>
+        <ul>
         {todosprops.map((todo) => (
           <TodoItem 
           key={todo.id} 
@@ -13,7 +14,9 @@ const TodosList = ({ todosprops, handleChange, delTodo, setUpdate   }) => {
           />
         ))}
       </ul>
+      </div>
     );
   };
+  
   export default TodosList;
   

@@ -1,4 +1,5 @@
 import { useState } from 'react';
+
 const InputTodo = ({ addTodoItem }) => {
   const [title, setTitle] = useState('');
   const [message, setMessage] = useState('');
@@ -18,7 +19,6 @@ const InputTodo = ({ addTodoItem }) => {
     }
   };
   
-
   return (
     <>
     <form onSubmit={handleSubmit} className="form-container">

@@ -1,16 +1,16 @@
 import { useState } from 'react';
 import './todoItem.css';
 
-const TodoItem = ({ itemprop, handleChange, delTodo, setUpdate   }) => {
-    const [editing, setEditing] = useState(false);
-    const [updateInput, setUpdateInput] = useState(itemprop.title);
+const TodoItem = ({ itemprop, handleChange, delTodo, setUpdate  }) => {
+  const [editing, setEditing] = useState(false);
+  const [updateInput, setUpdateInput] = useState(itemprop.title);
 
-    const handleEditing = () => {
-        setEditing(true);
-      };
+  const handleEditing = () => {
+      setEditing(true);
+    };
 
-      let viewMode = {};
-  let editMode = {};
+  const viewMode = {};
+  const editMode = {};
   if (editing) {
     viewMode.display = 'none';
   } else {
@@ -24,9 +24,11 @@ const TodoItem = ({ itemprop, handleChange, delTodo, setUpdate   }) => {
     }
   };
 
-    return <li className="item">
-        <div className="content" style={viewMode}>
-        <input type="checkbox" 
+    return
+    <>
+      <li className="item">
+      <div className="content" style={viewMode}>
+      <input type="checkbox" 
         checked={itemprop.completed}
         onChange={() => handleChange(itemprop.id)}
         />
@@ -42,8 +44,10 @@ const TodoItem = ({ itemprop, handleChange, delTodo, setUpdate   }) => {
       style={editMode}
       onChange={(e) => setUpdateInput(e.target.value)}
       onKeyDown={handleUpdatedDone}
-    />
+     />
         </li>;
+    </>
   };
+  
   export default TodoItem;
   
