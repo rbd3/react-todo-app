@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import InputTodo from './InputTodo';
-import TodosList
- from './TodoList';
+import TodosList from './TodoList';
 
 const TodosLogic = () => {
   const [todos, setTodos] = useState([
